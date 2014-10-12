@@ -72,6 +72,17 @@ article
       .title
         font-size px
         font-weight 300
+        display inline
+        a
+          color color-link
+          &:hover
+            color #000
+            text-decoration none
+
+      time
+        font-size 1.5em
+        font-weight 300
+        display inline-block
         a
           color color-link
           &:hover
@@ -90,9 +101,7 @@ article
           .heading-span
             color #444
             font-weight 400
-          time
-            color rgb(102, 102, 102)
-            display:inline;
+
           a
             text-decoration underline
             color #009CDC
@@ -154,6 +163,7 @@ article
 
     p
       word-wrap break-word
+      margin 20px 0
 
     blockquote
       border-top 1px solid color-border
@@ -191,6 +201,7 @@ article
       background #eee
       border 1px solid color-border
       margin-top 15px
+      margin-bottom  15px
       overflow auto
       padding 7px 15px
       border-radius 2px
@@ -202,11 +213,36 @@ article
         border-radius 0
 
     ul, ol, dl
-      margin-left 20px
+      //margin-left 20px 0
+      padding-top 20px
+      padding-left 40px
       ul, ol, dl
         margin-top 0
 
-    h1, h2
+    ul li p
+      margin-top 0
+
+    hr
+      margin 20px auto
+
+      margin-top: 21px;
+      margin-bottom 21px;
+      border 0
+      border-top 1px solid #eee;
+
+      border-top 2px dotted #eee
+      display block
+      box-sizing content-box
+      height 0
+
+    h1
+      padding 6px 8px
+      background #f3f3f3
+      border-radius 4px
+      -moz-border-radius 4px
+      -webkit-border-radius 4px
+
+    h2
       font-weight normal
       border-bottom 1px solid color-border
       padding-bottom 10px
