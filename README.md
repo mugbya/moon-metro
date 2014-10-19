@@ -1,7 +1,6 @@
 moon-metro
 ==========
-Moon-Metro is  a flat, minimal and responsive theme for Hexo, it is developed based on Metro-light
-
+Moon-Metro is  a flat, minimal and responsive theme for Hexo, it is developed based on [Metro-light](https://github.com/halfer53/metro-light)
 [Demo](http://blog.mugbya.cn)
 
 ## 更改如下
@@ -36,5 +35,6 @@ Moon-Metro is  a flat, minimal and responsive theme for Hexo, it is developed ba
 3. 修改主题。
 
  在/source/css/_partial/sidebar.styl 添加css样式
+
 
 
