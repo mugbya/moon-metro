@@ -20,10 +20,10 @@ comment:
 
 #share plugins at the bottom of the article
 share:
-  enable: true
-  jiathis: true ##a chinese sharing plugins for chinese users
-  twitter: true
-  google: true.
+  enable: false
+  jiathis: false ##a chinese sharing plugins for chinese users
+  twitter: false
+  google: false
 
 bottom_link:
   google_plus: ##e.g. 104684175089936429154 for https://plus.google.com/u/0/104684175089936429154/posts
