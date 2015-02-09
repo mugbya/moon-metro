@@ -166,13 +166,17 @@ article
       margin 20px 0
 
     blockquote
-      border-top 1px solid color-border
-      border-bottom 1px solid color-border
+      /*border-top 1px solid color-border*/
+      /*border-bottom 1px solid color-border*/
+      border-left: 10px solid #ddd;
       font-style italic
       font-family font-serif
       font-size 1.2em
-      padding 0 30px 15px
-      text-align center
+      padding 1px 0px 1px 20px
+      text-align left
+      background-color: rgba(128,128,128,0.05);
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
       footer
         border-top none
         font-size 0.8em
@@ -270,8 +274,8 @@ article
         content '\f040'
         position absolute
         font 1.3em font-icon
-        position absolute
-        left 0
+        position relative
+        /*left 0*/
         top 3px
 
     .video-container
