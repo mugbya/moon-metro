@@ -2,7 +2,7 @@
         <% if(page.toc != false){%>
             <div class="toc">
                 <%- "<h2> 文章目录 </h2> " %>
-                <%-  toc(page.content) %>
+                <%-  toc(page.content, {list_number: ""}) %>
             </div>
         <% } %>
 <% } %>

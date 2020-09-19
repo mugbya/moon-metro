@@ -1,7 +1,15 @@
-menu:
-  Home: /
-  Archives: /archives
+#menu:
+#  Home: /
+#  Archives: /archives
 
+
+menu:
+  - page: home
+    directory: /
+    icon: fa-home
+  - page: archive
+    directory: /archives
+    icon: fa-archive
 
 widgets:
 # - search
@@ -13,7 +21,7 @@ widgets:
 excerpt_link: 阅读全文 #Continue Reading
 
 comment:
-  duoshuo: true
+  duoshuo: false
   duoshuo_short_name: mugbya
 ## to enable disqus, you need to fill in the disqus_shortname in config.yml
 ## to enable duoshuo, you need duoshuo id and set duosuo to true
@@ -40,7 +48,7 @@ logo:
 
 #your personal page, could be your github account page, twitter or google plus personal page
 ## By default its your homepage
-personal_site: 
+personal_site:
 
 fancybox: true
 
@@ -48,7 +56,7 @@ fancybox: true
 CustomFont: true
 
 #google analytics id, e.g.UA-28532742-2
-google_analytics: 
+google_analytics:
 
 ##url of your rss
 ##it is highly recommanded to use rss plugins, https://github.com/hexojs/hexo-generator-feed
