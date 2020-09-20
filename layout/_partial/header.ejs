@@ -1,0 +1,22 @@
+
+
+<div class="padding">
+    <div class="alignleft logo">
+      <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
+      <p class="description"> <%= config.subtitle %></p>
+    </div>
+    <nav id="main-nav" class="alignright">
+        <input type="checkbox" id="toggle" />
+        <label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu" onclick><i class="fa fa-bars"></i></label>
+      <ul class="menu">
+        <% for (var i in theme.menu){ %>
+          <!-- <li><a href="<%- theme.menu[i] %>"><%= i %></a></li> -->
+          <!-- +a_with_current(theme.menu[i].directory, __(theme.menu[i].page), theme.menu[i].icon)-->
+          <li><a href="<%- theme.menu[i].directory %>"><i class="fa <%-theme.menu[i].icon %>"> <%=theme.menu[i].page%> </i></a></li>
+        <% } %>
+
+      </ul>
+    </nav>
+    <div class="clearfix"></div>
+</div>
+
