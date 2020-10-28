@@ -26,17 +26,23 @@
       </div>
 
 
-          <footer>
+
             <% if (index){ %>
 
             <% } else { %>
-              <%- partial('post/category') %>
-              <%- partial('post/tag') %>
-              <%- partial('post/share') %>
-              <%- partial('post/pagination') %>
+             <footer>
+             <div class="agreement">
+                  本作品系原创，<a target="_blank" class="text-secondary" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">采用《署名-非商业性使用-禁止演绎 4.0国际》许可协议</a>
+                </div>
+                  <%- partial('post/category') %>
+                  <%- partial('post/tag') %>
+                  <%- partial('post/share') %>
+                  <%- partial('post/pagination') %>
+              </footer>
             <% } %>
+
             <div class="clearfix"></div>
-          </footer>
+
 
 
     </div>
