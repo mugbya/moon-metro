@@ -26,17 +26,20 @@
       </div>
 
 
-          <footer>
+
             <% if (index){ %>
 
             <% } else { %>
-              <%- partial('post/category') %>
-              <%- partial('post/tag') %>
-              <%- partial('post/share') %>
-              <%- partial('post/pagination') %>
+             <footer>
+                  <%- partial('post/category') %>
+                  <%- partial('post/tag') %>
+                  <%- partial('post/share') %>
+                  <%- partial('post/pagination') %>
+              </footer>
             <% } %>
+
             <div class="clearfix"></div>
-          </footer>
+
 
 
     </div>
